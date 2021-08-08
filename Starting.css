@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(56, 56, 117);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.whole-body{
+    text-align: center;
+    
+}
+h{
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px white;
+    color:rgb(85, 82, 81);
+    font-family: "Gill Sans", sans-serif;
+}
+h2{
+    font-family: cursive;
+}
+#inputval 
+{
+   margin-top: 40px;
+   border:none;
+   border-bottom: solid 1px white;
+   font-size: 20px;
+   outline:none;
+   border-radius: 2px;
+   background-color: azure;
+   color:rgb(230, 94, 94);
+}
+::placeholder{
+   padding-left: 5px;
+}
+#btn{
+   width:100px; 
+   height:25px;
+   font-size: 17px;
+   border-radius: 5px;
+   border: solid 1px;
+   margin-left:10px;
+
+}
+#btn:hover{
+    cursor: pointer;
+}
+#ic{
+    width:120px;
+    height:120px;
+    transition: all;
+    transition-duration:2s ;
+    
+}
+
+#card{
+    display:inline-block;
+    width:300px;
+    height:350px;
+    align-items: center;
+    margin-top:20px;
+    padding-top: 10px;
+    box-shadow:2px 2px 20px ;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(253, 249, 249) 25%,rgb(38, 38, 51));
+    color:rgb(253, 253, 250);
+    opacity:0.8;
+    align-items: center;
+    
+}
+@media  screen and (max-width:356px) {
+    #btn{
+        margin-top:10px;
+    }
+}
+@media  screen and (max-width:400px) 
+{
+    #card{
+        width:250px;
+        height:300px;
+    }  
+}
+@media  screen and (max-height:600px) 
+{
+    #card{
+        margin-bottom:500px ;
+    }
+}
+
+
